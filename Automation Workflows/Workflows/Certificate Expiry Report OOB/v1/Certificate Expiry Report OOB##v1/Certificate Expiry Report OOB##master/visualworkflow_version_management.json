@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "5ede3ac98491fc3aaf09dd83",
+  "workflowName" : "Certificate Expiry Report OOB",
+  "workflowVersionName" : "master",
+  "source" : "master",
+  "description" : null,
+  "createdBy" : "admin",
+  "lastModifiedTime" : 1586243213433,
+  "activeForRequest" : true,
+  "activeForInventory" : true,
+  "protectedVersion" : true
+}

@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "5eaacee88e8f88584600b6fe",
+  "workflowName" : "testWorkflow",
+  "workflowVersionName" : "master",
+  "source" : "master",
+  "description" : null,
+  "createdBy" : "new",
+  "lastModifiedTime" : 1588252392394,
+  "activeForRequest" : true,
+  "activeForInventory" : true,
+  "protectedVersion" : true
+}
