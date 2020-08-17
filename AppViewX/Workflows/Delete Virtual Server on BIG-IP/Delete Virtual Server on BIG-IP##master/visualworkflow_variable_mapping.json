@@ -1,0 +1,701 @@
+[ {
+  "workflowName" : "Delete Virtual Server on BIG-IP",
+  "workflowType" : "Default",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "sysId",
+    "key" : "sysId",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : "servicenow_create_change_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "servicenow_close_change_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Operation Type",
+    "key" : "operation_type",
+    "value" : "operation_type",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nuzztR9Q",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Operation Type",
+    "key" : "operation_type",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nuzztR9Q",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "tabular_input",
+    "key" : "tabular_input",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nuzztR9Q",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "ADC F5  Ltm Virtual",
+    "key" : "ADC F5  Ltm Virtual",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nuzztR9Q",
+    "taskId" : "ltm_virtual_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "dnsName",
+    "key" : "dnsName",
+    "value" : "dnsName",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nuzztR9Q",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "tabular_input",
+    "key" : "tabular_input",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Device name",
+    "key" : "device_name",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Select Virtual Servers to delete",
+    "key" : "virtual_server",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Operation Type",
+    "key" : "operation_type",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "dnsName",
+    "key" : "dnsName",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Select Virtual Servers to delete",
+    "key" : "virtual_server",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nuzztR9Q",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Device name",
+    "key" : "device_name",
+    "value" : "device_name",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nuzztR9Q",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Select Virtual Servers to delete",
+    "key" : "virtual_server",
+    "value" : "virtual_server",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nuzztR9Q",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "ADC F5  Ltm Virtual",
+    "key" : "ADC F5  Ltm Virtual",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : "ltm_virtual_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "aPQ4ZU87",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Device name",
+    "key" : "device_name",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nuzztR9Q",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "tabular_input",
+    "key" : "tabular_input",
+    "value" : "tabular_input",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "nuzztR9Q",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "aPQ4ZU87",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "ltm_virtual_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "nuzztR9Q",
+      "parentSubFlowID" : null
+    } ]
+  } ]
+}, {
+  "workflowName" : "Delete Virtual Server on BIG-IP",
+  "workflowType" : "Rollback",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DtWVD9Zj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DtWVD9Zj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DtWVD9Zj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DtWVD9Zj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DtWVD9Zj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DtWVD9Zj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DtWVD9Zj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "DtWVD9Zj",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+} ]

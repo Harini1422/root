@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "5f36b8144fae28b3c22e194b",
+  "workflowName" : "Delete Virtual Server on BIG-IP",
+  "workflowVersionName" : "master",
+  "source" : "master",
+  "description" : null,
+  "createdBy" : "admin",
+  "lastModifiedTime" : 1580799397675,
+  "activeForRequest" : true,
+  "activeForInventory" : true,
+  "protectedVersion" : true
+}
