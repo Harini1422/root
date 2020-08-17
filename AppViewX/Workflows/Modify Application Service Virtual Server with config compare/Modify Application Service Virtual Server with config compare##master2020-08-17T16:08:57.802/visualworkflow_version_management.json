@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "5f3aab99b11e602e0b4b83d5",
+  "workflowName" : "Modify Application Service Virtual Server with config compare",
+  "workflowVersionName" : "master2020-08-17T16:08:57.802",
+  "source" : "master",
+  "description" : null,
+  "createdBy" : "admin",
+  "lastModifiedTime" : 1597680537839,
+  "activeForRequest" : false,
+  "activeForInventory" : false,
+  "protectedVersion" : false
+}
