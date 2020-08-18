@@ -1,0 +1,581 @@
+[ {
+  "workflowName" : "Delete LB Server on Nginx plus",
+  "workflowType" : "Default",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "final_nginx_conf",
+    "key" : "final_nginx_conf",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "bHQoLnqm",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "OAUsdmj4",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Device Name",
+    "key" : "device_name",
+    "value" : "device_name",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "OAUsdmj4",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "uLuRsG9J",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "MhjcXQPJ",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "bHQoLnqm",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Device Name",
+    "key" : "device_name",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "bHQoLnqm",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "OAUsdmj4",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "bHQoLnqm",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "nginx_backup_file_path",
+    "key" : "nginx_backup_file_path",
+    "value" : "nginx_backup_file_path",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "OAUsdmj4",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "MhjcXQPJ",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Load Balancing Type",
+    "key" : "lb_type",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "bHQoLnqm",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "bHQoLnqm",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "LB server Port",
+    "key" : "listener_port",
+    "value" : "listener_port",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Nginx Path",
+    "key" : "conf_file",
+    "value" : "conf_file",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Upstream Server Name",
+    "key" : "upstream_name",
+    "value" : "upstream_name",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "uLuRsG9J",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "bHQoLnqm",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Upstream Server Name",
+    "key" : "upstream_name",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "bHQoLnqm",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "bHQoLnqm",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "LB server IP",
+    "key" : "listener_ip",
+    "value" : "listener_ip",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "nginx_path",
+    "key" : "nginx_path",
+    "value" : "nginx_path",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "OAUsdmj4",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "MhjcXQPJ",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "uLuRsG9J",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "bHQoLnqm",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "nginx_backup_file_path",
+    "key" : "nginx_backup_file_path",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "bHQoLnqm",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "OAUsdmj4",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "LB server IP",
+    "key" : "listener_ip",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "bHQoLnqm",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "final_nginx_conf",
+    "key" : "final_nginx_conf",
+    "value" : "final_nginx_conf",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "OAUsdmj4",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "MhjcXQPJ",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Load Balancing Type",
+    "key" : "lb_type",
+    "value" : "lb_type",
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "uLuRsG9J",
+      "parentSubFlowID" : null
+    }, {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Default",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "bHQoLnqm",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "nginx_path",
+    "key" : "nginx_path",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "bHQoLnqm",
+    "taskId" : "script_1",
+    "dataType" : null,
+    "destinationTasks" : [ {
+      "taskId" : "script_1",
+      "taskName" : null,
+      "variableType" : null,
+      "flowName" : null,
+      "workFlowType" : "Rollback",
+      "subFlowType" : null,
+      "selected" : false,
+      "subFlowID" : "OAUsdmj4",
+      "parentSubFlowID" : null
+    } ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "uLuRsG9J",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Nginx Path",
+    "key" : "conf_file",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "bHQoLnqm",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "LB server Port",
+    "key" : "listener_port",
+    "value" : null,
+    "variableType" : "global",
+    "parentSubFlowID" : null,
+    "subFlowID" : "bHQoLnqm",
+    "taskId" : "createform_1",
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+}, {
+  "workflowName" : "Delete LB Server on Nginx plus",
+  "workflowType" : "Rollback",
+  "workflowVersion" : "master",
+  "varKeyList" : [ {
+    "name" : "Workflow Name",
+    "key" : "workflowName",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "MhjcXQPJ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Ticket Number",
+    "key" : "ticketNumber",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "MhjcXQPJ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Id",
+    "key" : "requestId",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "MhjcXQPJ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request Creator",
+    "key" : "requestCreator",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "MhjcXQPJ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Task State",
+    "key" : "taskState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "MhjcXQPJ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Loggedin User Name",
+    "key" : "loggedInUsername",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "MhjcXQPJ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Scheduled By",
+    "key" : "scheduledBy",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "MhjcXQPJ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  }, {
+    "name" : "Request State",
+    "key" : "requestState",
+    "value" : null,
+    "variableType" : "default",
+    "parentSubFlowID" : null,
+    "subFlowID" : "MhjcXQPJ",
+    "taskId" : null,
+    "dataType" : null,
+    "destinationTasks" : [ ]
+  } ]
+} ]
