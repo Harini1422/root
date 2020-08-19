@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : null,
+  "versioningAttachmentId" : null,
+  "_id" : "5f3be367aeb66965c1a0d0d7",
+  "workflowName" : "Magic variables",
+  "workflowVersionName" : "master2020-08-13T15:55:58.9492020-08-18T14:19:19.767",
+  "source" : "master",
+  "description" : null,
+  "createdBy" : "admin",
+  "lastModifiedTime" : 1597760359783,
+  "activeForRequest" : false,
+  "activeForInventory" : false,
+  "protectedVersion" : false
+}
