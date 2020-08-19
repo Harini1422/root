@@ -1,0 +1,33 @@
+[ {
+  "time" : 1597785120450,
+  "message" : "Workflow Created",
+  "priority" : 1,
+  "type" : "Workflow",
+  "user" : "admin",
+  "data" : null,
+  "category" : null,
+  "subCategory" : null,
+  "requestId" : null,
+  "requestType" : null,
+  "workflowName" : "new commit test",
+  "workflowVersion" : "master",
+  "name" : null,
+  "referenceId" : null,
+  "_keywords" : null
+}, {
+  "time" : 1597785156794,
+  "message" : "Workflow Version: 'new v1' has been created for the Workflow: 'new commit test'. Source Workfow Version is 'master'",
+  "priority" : 1,
+  "type" : "Workflow",
+  "user" : "admin",
+  "data" : null,
+  "category" : null,
+  "subCategory" : null,
+  "requestId" : null,
+  "requestType" : null,
+  "workflowName" : "new commit test",
+  "workflowVersion" : "new v1",
+  "name" : null,
+  "referenceId" : null,
+  "_keywords" : null
+} ]
