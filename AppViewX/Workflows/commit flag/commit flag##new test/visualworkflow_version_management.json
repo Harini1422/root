@@ -1,0 +1,14 @@
+{
+  "attachByFiles" : [ ],
+  "versioningAttachmentId" : "commit flag_0.4111723008663255",
+  "_id" : "5f3c38a64f210f4af1914ccb",
+  "workflowName" : "commit flag",
+  "workflowVersionName" : "new test",
+  "source" : "master",
+  "description" : "",
+  "createdBy" : "admin",
+  "lastModifiedTime" : 1597782182595,
+  "activeForRequest" : false,
+  "activeForInventory" : true,
+  "protectedVersion" : false
+}

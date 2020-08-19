@@ -1,0 +1,33 @@
+[ {
+  "time" : 1597782114126,
+  "message" : "Workflow Created",
+  "priority" : 1,
+  "type" : "Workflow",
+  "user" : "admin",
+  "data" : null,
+  "category" : null,
+  "subCategory" : null,
+  "requestId" : null,
+  "requestType" : null,
+  "workflowName" : "commit flag",
+  "workflowVersion" : "master",
+  "name" : null,
+  "referenceId" : null,
+  "_keywords" : null
+}, {
+  "time" : 1597782182641,
+  "message" : "Workflow Version: 'new test' has been created for the Workflow: 'commit flag'. Source Workfow Version is 'master'",
+  "priority" : 1,
+  "type" : "Workflow",
+  "user" : "admin",
+  "data" : null,
+  "category" : null,
+  "subCategory" : null,
+  "requestId" : null,
+  "requestType" : null,
+  "workflowName" : "commit flag",
+  "workflowVersion" : "new test",
+  "name" : null,
+  "referenceId" : null,
+  "_keywords" : null
+} ]
