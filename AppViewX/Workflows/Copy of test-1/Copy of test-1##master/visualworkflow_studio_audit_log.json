@@ -1,0 +1,17 @@
+[ {
+  "time" : 1606326558146,
+  "message" : "Workflow : 'Copy of test-1' has been created. Cloned from 'test-1'",
+  "priority" : 1,
+  "type" : "Workflow",
+  "user" : "admin",
+  "data" : null,
+  "category" : null,
+  "subCategory" : null,
+  "requestId" : null,
+  "requestType" : null,
+  "workflowName" : "Copy of test-1",
+  "workflowVersion" : "master",
+  "name" : null,
+  "referenceId" : null,
+  "_keywords" : null
+} ]
